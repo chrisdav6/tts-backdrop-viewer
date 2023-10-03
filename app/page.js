@@ -37,6 +37,7 @@ export default function Home() {
         >
           <option value='3footDesign-1.png'>3footDesign-1.png</option>
           <option value='3footDesign-2.png'>3footDesign-2.png</option>
+          <option value='3footDesign-3.png'>3footDesign-3.png</option>
         </select>
 
         <select
