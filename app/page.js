@@ -46,6 +46,7 @@ export default function Home() {
           onChange={(e) => setRight(e.target.value)}
         >
           <option value='8footDesignRight-1.png'>8footDesignRight-1.png</option>
+          <option value='8footDesignRight-2.png'>8footDesignRight-2.png</option>
         </select>
       </nav>
 
