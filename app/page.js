@@ -5,6 +5,7 @@ export default function Home() {
   const [left, setLeft] = useState('8footDesignLeft-1ver6.png');
   const [center, setCenter] = useState('3footDesign-4.png');
   const [right, setRight] = useState('8footDesignRight-3.png');
+  const [podium, setPodium] = useState('PodiumDesign-1.png');
 
   return (
     <main className='flex min-h-screen flex-col items-center pt-10'>
@@ -79,6 +80,26 @@ export default function Home() {
         {/* Right */}
         <div className='w-[600px]'>
           <img src={right} alt='Right Image' />
+        </div>
+      </div>
+
+      <h2 className='text-3xl font-bold mt-10'>Podium Design</h2>
+
+      <nav className='flex gap-2 mt-10'>
+        <select
+          name='podium'
+          id='podium'
+          className='border-2 px-4 py-2'
+          onChange={(e) => setPodium(e.target.value)}
+        >
+          <option value='PodiumDesign-1.png'>PodiumDesign-1.png</option>
+          <option value='PodiumDesign-2.png'>PodiumDesign-2.png</option>
+        </select>
+      </nav>
+
+      <div className='flex items-center justify-center w-full gap-4 mt-10 mb-24'>
+        <div className='w-[800px]'>
+          <img src={podium} alt='Podium Image' />
         </div>
       </div>
     </main>
