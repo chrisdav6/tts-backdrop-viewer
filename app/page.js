@@ -18,24 +18,25 @@ export default function Home() {
           onChange={(e) => setLeft(e.target.value)}
         >
           <option value='8footDesignLeft-1ver4.png'>
-            8footDesignLeft-1ver4.png
+            8footDesignLeft-4.png
           </option>
           <option value='8footDesignLeft-1.png'>8footDesignLeft-1.png</option>
           <option value='8footDesignLeft-1ver2.png'>
-            8footDesignLeft-1ver2.png
+            8footDesignLeft-2.png
           </option>
           <option value='8footDesignLeft-1ver3.png'>
-            8footDesignLeft-1ver3.png
+            8footDesignLeft-3.png
           </option>
           <option value='8footDesignLeft-1ver5.png'>
-            8footDesignLeft-1ver5.png
+            8footDesignLeft-5.png
           </option>
           <option value='8footDesignLeft-1ver6.png'>
-            8footDesignLeft-1ver6.png
+            8footDesignLeft-6.png
           </option>
           <option value='8footDesignLeft-1ver7.png'>
-            8footDesignLeft-1ver7.png
+            8footDesignLeft-7.png
           </option>
+          <option value='8footDesignLeft-8.png'>8footDesignLeft-8.png</option>
         </select>
 
         <select
