@@ -2,10 +2,10 @@
 import { useState } from 'react';
 
 export default function Home() {
-  const [left, setLeft] = useState('8footDesignLeft-1ver6.png');
+  const [left, setLeft] = useState('8footDesignLeft-ver9.png');
   const [center, setCenter] = useState('3footDesign-4.png');
-  const [right, setRight] = useState('8footDesignRight-3.png');
-  const [podium, setPodium] = useState('PodiumDesign-1.png');
+  const [right, setRight] = useState('8footDesignRight-6.png');
+  const [podium, setPodium] = useState('PodiumDesign-3.png');
 
   return (
     <main className='flex min-h-screen flex-col items-center pt-10'>
@@ -98,6 +98,7 @@ export default function Home() {
         >
           <option value='PodiumDesign-1.png'>PodiumDesign-1.png</option>
           <option value='PodiumDesign-2.png'>PodiumDesign-2.png</option>
+          <option value='PodiumDesign-3.png'>PodiumDesign-3.png</option>
         </select>
       </nav>
 
