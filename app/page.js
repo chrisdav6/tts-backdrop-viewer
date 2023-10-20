@@ -56,6 +56,9 @@ export default function Home() {
           <option value='8footDesignLeft-ver14.png'>
             8footDesignLeft-ver14.png
           </option>
+          <option value='8footDesignLeft-ver15.png'>
+            8footDesignLeft-ver15.png
+          </option>
         </select>
 
         <select
