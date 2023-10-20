@@ -2,9 +2,9 @@
 import { useState } from 'react';
 
 export default function Home() {
-  const [left, setLeft] = useState('8footDesignLeft-ver9.png');
+  const [left, setLeft] = useState('8footDesignLeft-ver11.png');
   const [center, setCenter] = useState('3footDesign-4.png');
-  const [right, setRight] = useState('8footDesignRight-6.png');
+  const [right, setRight] = useState('8footDesignRight-10.png');
   const [podium, setPodium] = useState('PodiumDesign-3.png');
 
   return (
@@ -18,15 +18,15 @@ export default function Home() {
           className='border-2 px-4 py-2'
           onChange={(e) => setLeft(e.target.value)}
         >
-          <option value='8footDesignLeft-1ver4.png'>
-            8footDesignLeft-4.png
-          </option>
           <option value='8footDesignLeft-1.png'>8footDesignLeft-1.png</option>
           <option value='8footDesignLeft-1ver2.png'>
             8footDesignLeft-2.png
           </option>
           <option value='8footDesignLeft-1ver3.png'>
             8footDesignLeft-3.png
+          </option>
+          <option value='8footDesignLeft-1ver4.png'>
+            8footDesignLeft-4.png
           </option>
           <option value='8footDesignLeft-1ver5.png'>
             8footDesignLeft-5.png
@@ -96,6 +96,9 @@ export default function Home() {
           </option>
           <option value='8footDesignRight-12.png'>
             8footDesignRight-12.png
+          </option>
+          <option value='8footDesignRight-13.png'>
+            8footDesignRight-13.png
           </option>
         </select>
       </nav>
