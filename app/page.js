@@ -100,9 +100,9 @@ export default function Home() {
           <option value='8footDesignRight-12.png'>
             8footDesignRight-12.png
           </option>
-          <option value='8footDesignRight-13.png'>
+          {/* <option value='8footDesignRight-13.png'>
             8footDesignRight-13.png
-          </option>
+          </option> */}
           <option value='8footDesignRight-14.png'>
             8footDesignRight-14.png
           </option>
